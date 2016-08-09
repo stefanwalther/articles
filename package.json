@@ -1,0 +1,29 @@
+{
+  "name": "articles",
+  "version": "0.1.0",
+  "description": "Article feed for qliksite.io",
+  "main": "",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanwalther/articles"
+  },
+  "keywords": [
+    "qlik",
+    "sense",
+    "qlik-sense",
+    "how-to",
+    "articles",
+    "knowledge-base",
+    "tipps",
+    "tricks"
+  ],
+  "author": "Stefan Walther",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/stefanwalther/articles/issues"
+  },
+  "homepage": "https://github.com/stefanwalther/articles"
+}
