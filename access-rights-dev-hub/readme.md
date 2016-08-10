@@ -2,6 +2,7 @@
 title: "Access Rights for Dev Hub"
 sub-title: "This article covers how to secure access to Dev Hub in general and in particular to tools like the Widget editor, the Extension editor and the Engine API explorer."
 draft: true
+slug: "access-rights-dev-hub"
 meta:
   page-image: "images/page-image.png"
 ---
