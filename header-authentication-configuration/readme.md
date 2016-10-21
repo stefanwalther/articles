@@ -35,7 +35,7 @@ Be aware that header authentication can also be used as a backdoor into your sys
 ## Identification:
 * **Description:** Use any description, not really important, just used in the QMC.
 * **Prefix:** Define a prefix which then needs to be used to point the the appropriate Virtual Proxy, for example: Use `hdr` (stands for header), then you need to use `http[s]://%servername%/hdr` to be routed to the virtual proxy "header-authentication"
-* **Session inactivity timeout:** By default 30 (minutes). (=> [explanation in the official documentation](http://help.qlik.com/sense/2.1/en-US/online/Subsystems/ManagementConsole/Content/virtual-proxies-properties.htm))
+* **Session inactivity timeout:** By default 30 (minutes). (=> [explanation in the official documentation](http://help.qlik.com/en-US/sense/2.1/Subsystems/ManagementConsole/Content/virtual-proxies-properties.htm))
 * **Session cookie header name:** This is a common trap you can fall into. The session cookie name has to be unique. When creating a new virtual proxy the default name is suggested, add for example the value of the **prefix** to the default name to ensure that the session cookie name is unique.
 
 ![](images/header-authentication--identification.png)
@@ -49,7 +49,7 @@ Be aware that header authentication can also be used as a backdoor into your sys
 
 ![](images/header-authentication--authentication.png)
 
-**More information** how to use the configuration options: [Qlik Sense for Developer: Virtual proxies properties](http://help.qlik.com/sense/2.1/en-US/online/Subsystems/ManagementConsole/Content/virtual-proxies-properties.htm)
+**More information** how to use the configuration options: [Qlik Sense for Developer: Virtual proxies properties](http://help.qlik.com/en-US/sense/2.1/Subsystems/ManagementConsole/Content/virtual-proxies-properties.htm)
 
 ### Load balancing:
 This setting is only applicable for Qlik Sense 1.1 and higher. A server node needs to be added as a Load balancing node to instruct the virtual proxy to use a specific proxy to route requests.
@@ -66,7 +66,7 @@ This setting is only applicable for Qlik Sense 1.1 and higher. A server node nee
 
 
 ## Testing the Virtual Proxy with Postman
-Now let's test the virtual proxy we have set up using *[Postman](https://www.getpostman.com/)* and the *[QRS API](http://help.qlik.com/sense/2.1/en-us/developer/Subsystems/ProxyServiceAPI/Content/ProxyServiceAPI/ProxyServiceAPI-Introduction.htm)*.
+Now let's test the virtual proxy we have set up using *[Postman](https://www.getpostman.com/)* and the *[QRS API](http://help.qlik.com/en-us/sense-developer/2.1/Subsystems/ProxyServiceAPI/Content/ProxyServiceAPI/ProxyServiceAPI-Introduction.htm)*.
 
 [Postman](https://www.getpostman.com/) is a Chrome plugin which can be used to call REST APIs. In our case we will test to perform API calls against the QRS API (Qlik Sense Repository API) using the above defined Virtual Proxy.
 
@@ -82,5 +82,5 @@ Now let's test the virtual proxy we have set up using *[Postman](https://www.get
 ## References
 
 * [Qlik Sense 1.1: Set Up Header Auth Virtual Proxy](https://community.qlik.com/docs/DOC-8135), article by [Jeffrey Goldberg](https://community.qlik.com/people/jog) on Qlik Community
-* [Authentication with HTTP headers](http://help.qlik.com/sense/2.1/en-us/developer/Subsystems/RepositoryServiceAPI/Content/RepositoryServiceAPI/RepositoryServiceAPI-Connect-API-Authenticate-Reqs-Http-Headers.htm), article on Qlik Sense for Developers (2.1.1)
-* [Using Xrfkey headers](https://help.qlik.com/sense/2.1/en-US/developer/Subsystems/RepositoryServiceAPI/Content/RepositoryServiceAPI/RepositoryServiceAPI-Connect-API-Using-Xrfkey-Headers.htm), article on Qlik Sense for Developers (2.1.1)
+* [Authentication with HTTP headers](http://help.qlik.com/en-us/sense-developer/2.1/Subsystems/RepositoryServiceAPI/Content/RepositoryServiceAPI/RepositoryServiceAPI-Connect-API-Authenticate-Reqs-Http-Headers.htm), article on Qlik Sense for Developers (2.1.1)
+* [Using Xrfkey headers](https://help.qlik.com/en-US/sense-developer/2.1/Subsystems/RepositoryServiceAPI/Content/RepositoryServiceAPI/RepositoryServiceAPI-Connect-API-Using-Xrfkey-Headers.htm), article on Qlik Sense for Developers (2.1.1)
