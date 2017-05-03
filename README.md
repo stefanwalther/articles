@@ -1,4 +1,6 @@
 # Qlik Sense / QAP / Integration Articles
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/stefanwalther/articles.svg)](https://greenkeeper.io/)
 > Article feed for qliksite.io
 
 ## Articles
