@@ -1,7 +1,3 @@
-The main purpose of this repository is to act as a feed to generate [qliksite.io](http://qliksite.io).
+These articles were originally written as a feed to generate qliksite.io, the author's former website. That site is no longer owned or maintained by the author. This repository persists a copy of the articles.
 
-As all contents on qliksite.io are fed by GitHub repos, feel free to contribute, to correct or complement articles.
-
-Link to the list of articles on qliksite.io:
-
-- [http://qliksite.io/articles/](http://qliksite.io/articles/)
+As all contents were fed by GitHub repos, feel free to contribute, to correct or complement articles.

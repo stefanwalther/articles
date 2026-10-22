@@ -11,7 +11,7 @@ tags:
 pageOpts:
   isToc: true
 ---
-If you have been following my activities for a while, you might have realized that I have recently stopped to publish on [qlikblog.at](http://www.qlikblog.at) and moved over to a new site called [qliksite.io](http://qliksite.io).
+If you have been following my activities for a while, you might have realized that I have recently stopped to publish on [qlikblog.at](http://www.qlikblog.at) and moved over to a new site called qliksite.io.
 Since then I have received some questions why I took this decision. qlikblog.at was and is quite popular, so on the first view this seems to be a stupid decision.
 If you are interested to understand what happened, continue to read, otherwise **just enjoy the day**.
 
